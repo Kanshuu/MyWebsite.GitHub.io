@@ -1,0 +1,127 @@
+*{
+text-decoration: none;
+margin: auto;
+padding: 0%;
+
+}
+
+body{
+background-color: rgb(255, 255, 255);
+z-index: -2;
+}
+
+.background{
+position: absolute;
+z-index: -1;
+width: 100%;
+margin: 0;
+height: 45%;
+opacity: 60%;
+border: 0;
+}
+
+.headerContainer{
+display: flex;
+justify-content: center;
+background-color: black;
+color: rgb(255, 255, 255);
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 70px;
+text-align: center;
+border-radius: 30px;
+font-size: 15px;
+font-family: "Geist Mono";
+}
+
+.boxContainer{
+display: flex;
+justify-content: center;
+font-size: 15px;
+
+}
+
+.boxContainer a{
+width: 100px;
+height: 50px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+border-radius: 15px;
+margin: 15px;
+margin-top: 30px;
+/*only for content within the section/box*/
+}
+
+
+.boxContainer :hover{
+font-weight: bolder;
+scale: 1.1;
+text-decoration: none;
+color: blueviolet;
+
+}
+
+.paraContainer1{
+color: rgb(0, 0, 0);
+margin-top: 110px;
+margin-left: 50px;
+margin-right: 50px;
+font-size: 20px;
+}
+
+.paraContainer{
+color: rgb(0, 0, 0);
+margin-top: 2%;
+margin-left: 50px;
+margin-right: 50px;
+font-size: 20px;
+}
+
+.ContactMe{
+background-color: lightblue;
+display: flex;
+justify-content: center;
+height: 100px;
+margin-top: 20px;
+}
+
+.ContactMe1{
+background-color: lightblue;
+height: 70px;
+width: 100%;
+font-size: 20px;
+}
+    
+.ContactMe1 div{
+display: flex;
+justify-content: center;
+line-height: 1.5;
+}
+
+.DataContainer{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 737px;
+}
+
+.FigureContainer{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+/*
+img{
+    display: block; 
+    border: 5px solid black;
+    width: 645px; 
+    height: 440px;
+}
+*/
+
+
+
